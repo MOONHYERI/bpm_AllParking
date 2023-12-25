@@ -16,27 +16,27 @@ section {
 }
 
 .bord{
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 800px;
-    margin-top: 145px;
-    margin-left: 570px;
     margin-bottom: 100px;
 }
 .bord h2{
     font-size: 40px;
 }
 .bord dl{
+    width: 800px;
     justify-content: space-evenly;
     margin-top: 10px;
     margin-bottom: 20px;
     display: flex;
     border-bottom: 1px solid #cfcfcf;
 }
-.bbsCreate_bottomLine:first-child{
-    border: 0px;
-}
+
 #bbsCreated {
     width: 800px;
-    padding: 10px;
     border-top: 1px solid black;
 }
 #bbsCreated_footer{
@@ -45,7 +45,12 @@ section {
    display: flex;
    margin-left: 200px;
 }
-
+#bbsCreated_content{
+    margin-left: 30px;
+}
+#bbsCreated_content textarea{
+    margin-left: 30px;
+}
 .btn2{
     width: 80px;
     height: 40px;
@@ -63,6 +68,6 @@ section {
 }
 .boxTA{
     width: 500px;
-    margin-bottom: 10px;
+    margin-bottom: 9px;
 }
 /*-------------------------------------------------------*/

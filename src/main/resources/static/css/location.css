@@ -20,11 +20,12 @@ section {
 }
 
 .location{
-    position: absolute;
-    top: 160px;
-    left: 370px;
-    line-height: 70px;
     width: 1200px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    line-height: 70px;
+    transform: translate(-50%, -50%);
 }
 .location h2{
     text-align: center;

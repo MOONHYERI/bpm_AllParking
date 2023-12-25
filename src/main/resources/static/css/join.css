@@ -10,8 +10,9 @@ section {
     width: 800px;
     height: 800px;
     text-align: center;
-    top: 130px;
-    left: 560px;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .join h2{
     font-size: 30px;
