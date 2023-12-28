@@ -10,7 +10,7 @@ section {
     width: 800px;
     height: 800px;
     text-align: center;
-    top:60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -118,6 +118,7 @@ section {
     background-color: black;
     color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 
