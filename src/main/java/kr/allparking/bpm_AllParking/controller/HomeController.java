@@ -27,4 +27,6 @@ public class HomeController {
     public String mypage(){ return "mypage";}
     @GetMapping("/charge")
     public String charge(){ return "charge";}
+    @GetMapping("/header1")
+    public String header(){ return "header1";}
 }
