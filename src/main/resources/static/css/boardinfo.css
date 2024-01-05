@@ -95,3 +95,58 @@ button{
     border: 0px;
 }
 /*-------------------------------------------------------*/
+@media screen and (min-width: 625px) {
+    .sign_phone{
+        display: none;
+    }
+
+}
+@media all and (max-width: 500px) {
+    footer {
+        display: none;
+    }
+    section{
+        width: 360px;
+        height: 800px;
+        margin: 0 auto;
+    }
+    .bord{
+        width: 360px;
+        margin: 0 auto;
+    }
+    .bord-table{
+        width: 360px;
+    }
+    tr{
+        font-size: 10px;
+    }
+    thead tr{
+        font-size: 13px;
+    }
+    tbody{
+        padding: 5px;
+    }
+    .page{
+        width: 360px;
+    }
+    .paging{
+        margin: 0 auto;
+    }
+    .bord ul{
+        width: 360px;
+    }
+    select{
+        width: 70px;
+        height: 30px;
+        padding: 0;
+        flex-wrap: nowrap;
+    }
+    .bord ul input{
+        width: 130px;
+        height: 30px;
+    }
+    button{
+        height: 30px;
+        padding: 0;
+    }
+}

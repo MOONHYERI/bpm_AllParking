@@ -105,3 +105,35 @@ section {
  }
 
 /*-------------------------------------------------------*/
+@media screen and (min-width: 625px) {
+    .sign_phone{
+        display: none;
+    }
+
+}
+@media all and (max-width: 500px) {
+    footer {
+        display: none;
+    }
+
+    .loginform{
+        width: 360px;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .loginform .next{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .login{
+        margin: 0 auto;
+    }
+    .athor{
+        margin: 0 auto;
+    }
+    .join{
+        margin: 0 auto;
+    }
+}

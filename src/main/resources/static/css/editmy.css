@@ -1,7 +1,7 @@
 
 /*--------------------------------------------------------*/
 section {
-    height: 1000px;
+    height: 1200px;
     width: 100%;
     z-index: -1;
 }
@@ -24,6 +24,7 @@ section {
     color: white;
     border: 0px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .basic{
     width: 500px;
@@ -42,7 +43,7 @@ section {
     border-bottom: 1px solid rgb(204, 204, 204);
 }
 .basic .text{
-    width: 140px;
+    width: 360px;
     height: 30px;
     margin-bottom: 15px;
 }
@@ -57,6 +58,9 @@ section {
 .basic .id{
     justify-content: start;
 }
+.basic .id label{
+    display: flex;
+}
 .basic .id .text{
     margin-left: 95px;
 }
@@ -67,6 +71,9 @@ section {
 .basic .pw{
     justify-content: flex-start;
 }
+.basic .pw label{
+    display: flex;
+}
 .pw input{
     margin-left: 80px;
     border: 0px;
@@ -74,12 +81,28 @@ section {
 .basic .pw1{
     justify-content: flex-start;
 }
+.basic .pw1 label{
+    display: flex;
+}
 .pw1 input{
-    margin-left: 47px;
+    margin-left: 62px;
+    border: 0px;
+}
+.basic .pw2 label{
+    display: flex;
+}
+.pw2 p{
+    width: 115px;
+}
+.pw2 input{
+    margin-left: 25px;
     border: 0px;
 }
 .basic .name{
     justify-content: flex-start;
+}
+.basic .name label{
+    display: flex;
 }
 .name input{
     margin-left: 110px;
@@ -88,12 +111,18 @@ section {
 .basic .number{
     justify-content: flex-start;
 }
+.basic .number label{
+    display: flex;
+}
 .number input{
     margin-left: 80px;
     border: 0px;
 }
 .basic .mail{
     justify-content: start;
+}
+.basic .mail label{
+    display: flex;
 }
 .basic .mail .text{
     margin-left: 95px;
@@ -102,9 +131,12 @@ section {
     margin-left: -30px;
     border: 0px;
 }
+.basic .carinfo label{
+    display: flex;
+}
 .carinfo .text{
-    margin-left: -40px;
     border: 0px;
+    margin-left: 80px;
 }
 .basic .check{
     font-size: 15px;
@@ -121,6 +153,7 @@ section {
     background-color: black;
     color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /* .id{
@@ -136,3 +169,36 @@ section {
     display: flex;
 } */
 /*-------------------------------------------------------*/
+@media screen and (min-width: 625px) {
+    .sign_phone{
+        display: none;
+    }
+
+}
+@media all and (max-width: 500px) {
+    footer {
+        display: none;
+    }
+
+    .join {
+        width: 360px;
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .basic {
+        width: 360px;
+        margin-left: 0;
+    }
+    .basic .text{
+        width: 100px;
+    }
+    .carinfo{
+        width: 360px;
+    }
+    .carinfo .text{
+        width: 220px;
+    }
+}
